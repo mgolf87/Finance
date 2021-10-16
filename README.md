@@ -1,7 +1,7 @@
 # Finance
 Repository of different programs for finance and investing
 <br />
-Always use StochRSI before making an investment to ensure it's a good time to buy
+Always use StochRSI before making an investment to ensure it's a good time to buy or sell
 <br />
 
 ### Stochastic Relative Strength Index - StochRSI
