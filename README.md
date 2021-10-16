@@ -19,7 +19,7 @@ Uses an exponential moving average indicator function (EMA) and a Stochastic RSI
 
 ### Decision Tree Stock Close Price Prediction
 #### DecisionTree_StockPrediction.ipynb
-Decision tree used to predict if the price of a stock will increase or decrease, will tomorrows close price be higher or lower than todays close price.
+Decision tree used to predict if the price of a stock will increase or decrease. Will tomorrows close price be higher or lower than todays close price?
 
 <br />
 
