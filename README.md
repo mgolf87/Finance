@@ -28,3 +28,9 @@ Decision tree used to predict if the price of a stock will increase or decrease.
 #### SentimentAnalaysisStockPrice.ipynb
 ##### (requires upload_DJIA_table.csv; Combined_News_DJIA.csv)
 Prediction of price increase or decrease in a stock based on top news headlines. Requires vaderSentiment and textblob installations. Measures sentiment based on the subjectivity and polarity within the news headlines. Subjectivity ranges from 0 (objective) to 1 (subjective) and Polarity ranges from -1 (negative statement) to +1 (positive statement). Sentiment scores are divided into negative, neutral, and positive. The compound score is the score that calculates the sum of all lexicon ratings (normalized between -1 and +1). Linear discriminant analysis was used to make model predictions from the training and test sets. Model resulted in an accuracy of 0.84.
+
+<br />
+
+### Yahoo Finance Trending Ticker Scraper
+#### YF_TrendingTickers.ipynb
+Program which pulls the trending stock tickers from Yahoo Finance and saves them in a .csv file with the timestamp and trending rank order. Current loop set to fetch the trending tickers every minute and save them into a .csv file.
