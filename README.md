@@ -1,8 +1,11 @@
 # Finance
 Repository of different programs for finance and investing
 <br />
-Always use StochRSI before making an investment to ensure it's a good time to buy or sell
+StochRSI before making an investment to ensure it's a good time to buy or sell - need an abnormal volume detector to buy/sell with
 <br />
+Supertrend Crypto Trading Bot is key for trading
+<br />
+Projects all contain code adapted and credited in the notebooks
 <br />
 
 ### Stochastic Relative Strength Index - StochRSI
@@ -34,3 +37,13 @@ Prediction of price increase or decrease in a stock based on top news headlines.
 ### Yahoo Finance Trending Ticker Scraper
 #### YF_TrendingTickers.ipynb
 Program which pulls the trending stock tickers from Yahoo Finance and saves them in a .csv file with the timestamp and trending rank order. Current loop set to fetch the trending tickers every minute and save them into a .csv file.
+
+<br />
+
+### Supertrend Crypto Trading Both
+#### SuperTrend_CryptoBot.ipynb
+Average True Range (ATR): measure of market volatility via decomposing the entire range of an assest price for that period
+<br />
+True Range (TR): Max [current high - current low] OR Max [abs(current high - previous close)] OR Max [abs(current low - previous close)] i.e. Max[CH-CL, abs(CH-PC), abs(CL-PC)]
+<br />
+ATR is just the average of the TR over a specified period
