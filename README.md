@@ -7,6 +7,7 @@ Supertrend Crypto Trading Bot is key for trading
 <br />
 Projects all contain code adapted and credited in the notebooks
 <br />
+<br />
 
 ### Stochastic Relative Strength Index - StochRSI
 #### StochRSI.ipynb 
